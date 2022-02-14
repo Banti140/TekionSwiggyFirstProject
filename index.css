@@ -54,6 +54,7 @@ body{
     line-height: 0px;
     margin-top: 10009px;
     display: inline;
+    
 }
 
 .blackPart h3{
@@ -81,12 +82,172 @@ body{
     text-align: right;
     margin-top: -120px;
     margin-right: 1200px;
-    line-height: 25px;
+    line-height: 30px;
+    font-weight: 900;
     display: inline-flex;
+    /* border-right: 6px solid green; */
+}
+
+.boarder{
+    margin-right: 1210px;
+    border-right: 3px solid green;
+    height: 200px;
+    margin-top: 50px;
+    /* float: right; */
 }
 
 .items li{
  list-style: none;
 
 }
+
+.items2 {
+    margin-top: -250px;
+   }
+
+.firstDish {
+    margin-left: 530px;
+    font-weight: 900;
+    float: left;
+    width: 33.3%;
+}
+
+.firstDishandname img{
+    width: 110px;
+    height: 90px;
+    margin-left: 120px;
+    float:right;
+}
+
+.firstDishContent{
+    color: grey;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.secondDish {
+    margin-left: 530px;
+    font-weight: 900;
+    float: left;
+    width: 33.3%;
+    margin-top: 40px;
+}
+
+.secondDishandname img{
+    width: 110px;
+    height: 90px;
+    margin-left: 120px;
+    float:right;
+}
+
+.secondDishContent{
+    color: grey;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.thirdDish {
+    margin-left: 530px;
+    font-weight: 900;
+    float: left;
+    width: 33.3%;
+    margin-top: 40px;
+}
+
+.thirdDishandname img{
+    width: 110px;
+    height: 90px;
+    margin-left: 120px;
+    float:right;
+}
+
+.thirdDishContent{
+    color: grey;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.fourthDish {
+    margin-left: 530px;
+    font-weight: 900;
+    float: left;
+    width: 33.3%;
+    margin-top: 40px;
+}
+
+.fourthDishandname img{
+    width: 110px;
+    height: 90px;
+    margin-left: 120px;
+    float:right;
+}
+
+.fourthDishContent{
+    color: grey;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.fifthDish {
+    margin-left: 530px;
+    font-weight: 900;
+    float: left;
+    width: 33.3%;
+    margin-top: 40px;
+}
+
+.fifthDishandname img{
+    width: 110px;
+    height: 90px;
+    margin-left: 120px;
+    float:right;
+}
+
+.fifthDishContent{
+    color: grey;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+}
+
+.items3{
+    margin-top: -100px;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.boarder2{
+    border-left: 4px solid green;
+    margin-left: 1130px;
+    height: 960px;
+    margin-top: -90px;
+    /* float: left; */
+}
+
+.items3{
+    margin-left: 1170px;
+    margin-top: -970px;
+    color: grey;
+    
+}
+
+.cartImage img{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.cartText{
+   margin-top: -7px;
+   color: rgb(75, 66, 66);
+   font-size: 18px;
+   font-weight: 1000;
+   margin-left: 1180px;
+   width: 14%;
+}
+
+
 
