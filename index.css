@@ -61,6 +61,12 @@ header{
     font-weight: 30;
     display: inline;
 }
+.pricerecom{
+    font-size: 15px; color: grey;margin-top: 5px;
+}
+.descrecom{
+    width: 100%;text-align:left;margin-left: 0;
+}
 
 .blackPart div{
     width: auto; 
