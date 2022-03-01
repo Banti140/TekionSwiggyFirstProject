@@ -1,29 +1,27 @@
 header{
     margin: auto;   
-    width: 100%;
-    display: inline-block;
 }
+
+/* html{
+    font-size: 10px;
+    rem=Realtive Measurement
+} */
 
 .location{
     background-color: rgb(243, 243, 243,0.89);
-    margin-bottom: -65px;
-    margin-left: 280px;
+    margin-bottom: -4.06rem;
+    margin-left: 12.5rem;
 }
 
 .first img{
-    height: 70px;
+    height: 4.375rem;
     float: left;
-}
-
-body{
-    height: auto;
-    width: auto;
 }
 
 .blackPart{
     background-color: black;
     height: 14vw;
-   margin-top:70px;
+   margin-top:4.375rem;
    width: 100%;
 }
 
@@ -31,68 +29,68 @@ body{
     width: 15%; 
     height: 70%;
     float: left; 
-    margin-top: 1px;
+    margin-top: .0625rem;
    margin-left: 10%;
-   padding: 20px;
+   padding: 1.25rem;
   } 
 
   .blackPart h1{
       color: white;
       /* text-align: start; */
-      font-size: 30px;
+      font-size: 1.875rem;
       font-weight: 70;
-      padding: 25px;
-      line-height:20px;
-     margin-bottom: -15px; 
+      padding: 1.5625rem;
+      line-height:1.25rem;
+     margin-bottom: -0.9375rem; 
   }
 
   .blackPart h2{
     color: grey;
     text-align: start;
-    font-size: 21px;
+    font-size: 1.3125rem;
     font-weight: 50;
     line-height: 0px;
-    margin-top: 10009px;
+    margin-top: 625.5625rem;
     display: inline;
     
 }
 
 .blackPart h3{
     color: grey;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 30;
     display: inline;
 }
 
 .blackPart div{
     width: auto; 
-    height: 200px;
+    height: 12.5rem;
 }
 
 .blackPart offer{
     border: solid 3px green;
-    margin-right: 100px;
+    margin-right: 6.25rem;
     float: right;
-    padding-left: 200px;
+    padding-left: 12.5rem;
 }
 
 .items{
-    margin-left: 300px;
-    padding-top: 30px;
+    margin-left: 18.75rem;
+    padding-top: 1.875rem;
     text-align: right;
-    margin-top: -120px;
-    margin-right: 1200px;
-    line-height: 30px;
+    margin-top: -7.5rem;
+    margin-right: 75rem;
+    line-height: 1.875rem;
     font-weight: 900;
     display: inline-flex;
     /* border-right: 6px solid green; */
 }
 
 .boarder{
-    margin-right: 1210px;
+    margin-right: 75.625rem;
     border-right: 3px solid green;
-    height: 200px;
-    margin-top: 50px;
+    height: 12.5rem;
+    margin-top: 1.25rem;
     /* float: right; */
 }
 
@@ -102,148 +100,148 @@ body{
 }
 
 .items2 {
-    margin-top: -250px;
+    margin-top: -15.625rem;
    }
 
 .firstDish {
-    margin-left: 530px;
+    margin-left: 33.125rem;
     font-weight: 900;
     float: left;
     width: 33.3%;
 }
 
 .firstDishandname img{
-    width: 110px;
-    height: 90px;
-    margin-left: 120px;
+    width: 6.875rem;
+    height: 5.625rem;
+    margin-left: 7.5rem;
     float:right;
 }
 
 .firstDishContent{
     color: grey;
-    font-size: 14px;
-    line-height: 14px;
-    margin-top: 10px;
+    font-size: .875rem;
+    line-height: .875rem;
+    margin-top: .625rem;
 }
 
 .secondDish {
-    margin-left: 530px;
+    margin-left: 33.125rem;
     font-weight: 900;
     float: left;
     width: 33.3%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .secondDishandname img{
-    width: 110px;
-    height: 90px;
-    margin-left: 120px;
+    width: 6.875rem;
+    height: 5.625rem;
+    margin-left: 7.5rem;
     float:right;
 }
 
 .secondDishContent{
     color: grey;
-    font-size: 14px;
-    line-height: 14px;
-    margin-top: 10px;
+    font-size: .875rem;
+    line-height: .875rem;
+    margin-top: .625rem;
 }
 
 .thirdDish {
-    margin-left: 530px;
+    margin-left: 33.125rem;
     font-weight: 900;
     float: left;
     width: 33.3%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .thirdDishandname img{
-    width: 110px;
-    height: 90px;
-    margin-left: 120px;
+    width: 6.875rem;
+    height: 5.625rem;
+    margin-left: 7.5rem;
     float:right;
 }
 
 .thirdDishContent{
     color: grey;
-    font-size: 14px;
-    line-height: 14px;
-    margin-top: 10px;
+    font-size: .875rem;
+    line-height: .875rem;
+    margin-top: .625rem;
 }
 
 .fourthDish {
-    margin-left: 530px;
+    margin-left: 33.125rem;
     font-weight: 900;
     float: left;
     width: 33.3%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .fourthDishandname img{
-    width: 110px;
-    height: 90px;
-    margin-left: 120px;
+    width: 6.875rem;
+    height: 5.625rem;
+    margin-left: 7.5rem;
     float:right;
 }
 
 .fourthDishContent{
     color: grey;
-    font-size: 14px;
-    line-height: 14px;
-    margin-top: 10px;
+    font-size: .875rem;
+    line-height: .875rem;
+    margin-top: .625rem;
 }
 
 .fifthDish {
-    margin-left: 530px;
+    margin-left: 33.125rem;
     font-weight: 900;
     float: left;
     width: 33.3%;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .fifthDishandname img{
-    width: 110px;
-    height: 90px;
-    margin-left: 120px;
+    width: 6.875rem;
+    height: 5.625rem;
+    margin-left: 7.5rem;
     float:right;
 }
 
 .fifthDishContent{
     color: grey;
-    font-size: 14px;
-    line-height: 14px;
-    margin-top: 10px;
+    font-size: .875rem;
+    line-height: .875rem;
+    margin-top: .625rem;
 }
 
 .items3{
-    margin-top: -100px;
-    font-size: 37px;
+    margin-top: -6.25rem;
+    font-size: 2.3125rem;
     font-weight: 600;
 }
 
 .boarder2{
     border-left: 4px solid green;
-    margin-left: 1130px;
-    height: 960px;
-    margin-top: -90px;
+    margin-left: 70.625rem;
+    height: 60rem;
+    margin-top: -5.625rem;
     /* float: left; */
 }
 
 .items3{
-    margin-left: 1170px;
-    margin-top: -970px;
+    margin-left: 73.125rem;
+    margin-top: -60.625rem;
     color: grey;
     
 }
 
 .cartImage img{
-    margin-left: 60px;
-    margin-top: 20px;
+    margin-left: 3.75rem;
+    margin-top: 1.25rem;
 }
 
 .cartText{
    margin-top: -7px;
    color: rgb(75, 66, 66);
-   font-size: 18px;
+   font-size: 1.125rem;
    font-weight: 1000;
    margin-left: 1180px;
    width: 14%;
