@@ -1,0 +1,38 @@
+ {"foodData":
+    [
+    {
+       "id" :"item1",
+        "dishItemName":"veg platter",
+        "dishPrice":"699 Rs",
+        "aboutdescripton":" An authentic veg platter with 3 pieces of Paneer Achari, 3 pieces of Hara Bhara,3 pieces of Veg Seekh and 3 pieces of Malai Chaap."
+    },
+
+    {
+        "id":"item2",
+        "dishItemName":"Non veg platter",
+        "dishPrice":"899 Rs",
+        "aboutdescripton":"An authentic non veg platter with 3 pieces of Barnala Mathi Chicken Tikka,3 pieces of Dhaniya Chicken,and 3 pieces of Chicken Kebab." 
+    },
+
+    {
+        "id":"item3",
+        "dishItemName":"Mixed platter",
+        "dishPrice":"799 Rs",
+        "aboutdescripton":"An authentic mixed platter with 3 pieces of Barnala Methi Chicken, 3 pieces of Hara Bhara and 3 pieces of Paneer Tikka." 
+    },
+
+    {
+        "id":"item4",
+        "dishItemName":"Dhaniya Chicken Tikka",
+        "dishPrice":"249 Rs",
+        "aboutdescripton":"Succulent chicken marinated & flavoured with fresh coriander,grilled to perfection." 
+    },
+
+    {
+        "id":"item5",
+        "dishItemName":"Malai Chicken Tikka",
+        "dishPrice":"249 Rs",
+        "aboutdescripton":" Tender chicken smeared in rich cream flavoured with herbs and spices." 
+    }
+    ]
+}
