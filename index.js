@@ -36,7 +36,7 @@ let model={
     itemsData:foodData,
     init:function(passeddata){
         this.itemsData=passeddata;
-    }
+    },
     setData:function(itemsData){
         return this.itemsData;
     }
@@ -55,7 +55,7 @@ let view={
                 tag_id.innerHTML +=
                     `<div class="firstDish">
                 ${x.dishItemName}
-                <div id="firstDishandname_img" > 
+                <div id="firstDishandname_img" > g
                     <img src="${x.image}" width="100" /> 
                     <button onclick="addToCartClicked()">Add To Cart</button>
                 </div>
