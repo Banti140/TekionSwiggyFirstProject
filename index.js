@@ -30,65 +30,61 @@
 
 // {/* <button onclick="myFunction()">Add to Cart</button> */}
 
-import foodData from "./index.json" assert { type: "json" };
+// console.log("hitesh");
+
+// import foodData from "./index.json" assert { type: "json" };
+const tag_id = document.getElementById("recommendation");
 
 let model={
-    itemsData:foodData,
-    init:function(passeddata){
-        this.itemsData=passeddata;
-    },
-    setData:function(itemsData){
-        return this.itemsData;
-    }
+    setData:function({dishItemName,dishPrice,image,aboutdescripton}){
+        tag_id.innerHTML +=
+        `<div class="firstDish">
+    ${dishItemName}
+    <div id="firstDishandname_img" > 
+        <img src="${image}" width="100" /> 
+        <button onclick="addToCartClicked()">Add To Cart</button>
+    </div>
+
+    <div class="pricerecom">
+    ${dishPrice}
+    </div>
+    
+    <div id="firstDishContent">
+    ${aboutdescripton}
+    </div>
+    <br> </br>
+    <hr class="descrecom">
+</div>
+`
+   },
+  
 };
 
 let view={
-    init: function() {
-        this.render();
-    },
-
     itemsListView:function(){
          fetch("./index.json").then(response => {
-             response.json();
-        }).then(function (data) {
-            for (let x of data['foodData']) {
-                tag_id.innerHTML +=
-                    `<div class="firstDish">
-                ${x.dishItemName}
-                <div id="firstDishandname_img" > g
-                    <img src="${x.image}" width="100" /> 
-                    <button onclick="addToCartClicked()">Add To Cart</button>
-                </div>
-        
-                <div class="pricerecom">
-                ${x.dishPrice}
-                </div>
-                
-                <div id="firstDishContent">
-                ${x.aboutdescripton}
-                </div>
-                <br> </br>
-                <hr class="descrecom">
-            </div>
-            `
-            }
-        })
+            return response.json();
+         }
+        ).then((data)=>{
+              for (let x of data['foodData']) {
+                  model.setData(x);
+
+            }})
     },
 
     render:function(){
         this.itemsListView();
-    }
+        }
 };
 
 let controller={
     init:function(){
-        model.init(foodData);
         view.render();
     },
-    getItem:function(){
-        return model.itemsData;
-    }
 }
+
+controller.init();
+
 
 
 // fetch('./index.json')
